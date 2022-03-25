@@ -1,0 +1,60 @@
+.gateways {
+  padding: 20px 40px;
+  box-sizing: border-box;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.gateways .table {
+  width: 100%;
+  border: 1px solid red;
+  height: auto;
+  background: #FFFFFF;
+  border-radius: 5px;
+  border: 0;
+  min-width: 800px;
+  max-height: 80vh;
+  overflow: auto;
+}
+
+.table .header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  background: #FFFFFF;
+}
+
+.table .header, .table .row {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  box-sizing: border-box;
+  border-bottom: 2px solid #F6F9FF;
+  margin: 0;
+}
+
+.header span {
+  font-weight: 900;
+}
+
+.table .id {
+  width: 25%;
+  min-width: 250px;
+}
+.table .ip {
+  width: 20%;
+}
+.table .name {
+  width: 20%;
+}
+.table .actions {
+  width: 10%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}

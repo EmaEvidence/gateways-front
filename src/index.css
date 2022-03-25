@@ -1,0 +1,38 @@
+body {
+  background: #F6F9FF;
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.action-btn {
+  width: 35px !important;
+  height: 35px !important;
+  border-radius: 5px !important;
+  border: 1px solid #7B86CB !important;
+  background: #FFFFFF !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin-top: 0 !important;
+  cursor: pointer;
+  transition: opacity 0.25s;
+  opacity: 0.8;
+}
+
+action-btn:hover {
+  opacity: 1;
+}
+
+a {
+  text-decoration: none;
+  color: #7B86CB;
+}

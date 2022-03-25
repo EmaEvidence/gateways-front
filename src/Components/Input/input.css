@@ -1,0 +1,57 @@
+.input-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin: 20px 0;
+}
+
+
+.input-wrapper input {
+  width: 100%;
+  height: 45px;
+  border-radius: 8px;
+  box-sizing: border-box;
+  padding: 0 10px;
+  border: 1px solid #F0F1F7;
+  background: #FCFDFE !important;
+  color: #66676da9;
+  font-size: 14px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.input-wrapper > .label-wrapper {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 6px;
+}
+
+.input-wrapper label {
+  color: #66676D;
+  font-size: 12;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.input-wrapper a {
+  text-decoration: none !important;
+}
+
+.input-wrapper span {
+  color: #9FA2B4;
+  font-size: 10px;
+  font-weight: 500;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+
+.input-wrapper p {
+  color: red;
+  font-size: 10px;
+  font-weight: 500;
+  text-transform: capitalize;
+  text-decoration: none;
+}
