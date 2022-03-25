@@ -68,3 +68,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### To effectively run this app, clone the backend service available here https://github.com/EmaEvidence/gateways-back, set it up following the readme.
+
+### Use the envexample file to create your .env file and add the url of the backend service above to it as the base url
